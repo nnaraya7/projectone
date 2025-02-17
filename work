@@ -1,0 +1,14 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+ 
+import scipy.stats as st
+import statsmodels.api as sm 
+import pylab as py 
+
+# here are some of the tools we will use for our analyses
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import PredictionErrorDisplay
+from sklearn.metrics import root_mean_squared_error
+from sklearn.metrics import r2_score
